@@ -1,0 +1,365 @@
+{
+ "source": "Module addresses from sillygoose/mme-record modules.json (MIT); bus assignment = which OBD-connector pair that project used; descriptions from Ford naming / macheforum FORScan module list",
+ "modules": [
+  {
+   "name": "ABS",
+   "request_id": "760",
+   "response_id": "768",
+   "obd_bus": "HS (Diag1, pins 6/14)",
+   "description": "Anti-lock Brake System",
+   "power_limit_relevant": false
+  },
+  {
+   "name": "ACCM",
+   "request_id": "7C7",
+   "response_id": "7CF",
+   "obd_bus": "HS (Diag1, pins 6/14)",
+   "description": "Air Conditioning Control Module",
+   "power_limit_relevant": false
+  },
+  {
+   "name": "ACM",
+   "request_id": "727",
+   "response_id": "72F",
+   "obd_bus": "MS (Diag2, pins 3/11)",
+   "description": "Audio Control Module",
+   "power_limit_relevant": false
+  },
+  {
+   "name": "APIM",
+   "request_id": "7D0",
+   "response_id": "7D8",
+   "obd_bus": "MS (Diag2, pins 3/11)",
+   "description": "Accessory Protocol Interface Module (SYNC)",
+   "power_limit_relevant": false
+  },
+  {
+   "name": "BCM",
+   "request_id": "726",
+   "response_id": "72E",
+   "obd_bus": "HS (Diag1, pins 6/14)",
+   "description": "Body Control Module",
+   "power_limit_relevant": true
+  },
+  {
+   "name": "BCMC",
+   "request_id": "6F0",
+   "response_id": "6F8",
+   "obd_bus": "HS (Diag1, pins 6/14)",
+   "description": "Body Control Module C",
+   "power_limit_relevant": false
+  },
+  {
+   "name": "BECM",
+   "request_id": "7E4",
+   "response_id": "7EC",
+   "obd_bus": "HS (Diag1, pins 6/14)",
+   "description": "Battery Energy Control Module (HV battery BMS)",
+   "power_limit_relevant": true
+  },
+  {
+   "name": "BECMB",
+   "request_id": "723",
+   "response_id": "72B",
+   "obd_bus": "HS (Diag1, pins 6/14)",
+   "description": "Battery Energy Control Module B",
+   "power_limit_relevant": false
+  },
+  {
+   "name": "CCM",
+   "request_id": "764",
+   "response_id": "76C",
+   "obd_bus": "HS (Diag1, pins 6/14)",
+   "description": "Cruise Control Module",
+   "power_limit_relevant": false
+  },
+  {
+   "name": "CMR",
+   "request_id": "7C1",
+   "response_id": "7C9",
+   "obd_bus": "HS (Diag1, pins 6/14)",
+   "description": "Camera Module Rear / driver monitor",
+   "power_limit_relevant": false
+  },
+  {
+   "name": "DCDC",
+   "request_id": "746",
+   "response_id": "74E",
+   "obd_bus": "HS (Diag1, pins 6/14)",
+   "description": "DC-DC Converter (12 V supply)",
+   "power_limit_relevant": true
+  },
+  {
+   "name": "DCME",
+   "request_id": "7A2",
+   "response_id": "7AA",
+   "obd_bus": "MS (Diag2, pins 3/11)",
+   "description": "Door Control Module E",
+   "power_limit_relevant": false
+  },
+  {
+   "name": "DCMG",
+   "request_id": "7B3",
+   "response_id": "7BB",
+   "obd_bus": "MS (Diag2, pins 3/11)",
+   "description": "Door Control Module G",
+   "power_limit_relevant": false
+  },
+  {
+   "name": "DCMH",
+   "request_id": "7B4",
+   "response_id": "7BC",
+   "obd_bus": "MS (Diag2, pins 3/11)",
+   "description": "Door Control Module H",
+   "power_limit_relevant": false
+  },
+  {
+   "name": "DDM",
+   "request_id": "740",
+   "response_id": "748",
+   "obd_bus": "HS (Diag1, pins 6/14)",
+   "description": "Driver Door Module",
+   "power_limit_relevant": false
+  },
+  {
+   "name": "DSM",
+   "request_id": "744",
+   "response_id": "74C",
+   "obd_bus": "MS (Diag2, pins 3/11)",
+   "description": "Driver Seat Module",
+   "power_limit_relevant": false
+  },
+  {
+   "name": "DSP",
+   "request_id": "783",
+   "response_id": "78B",
+   "obd_bus": "MS (Diag2, pins 3/11)",
+   "description": "Audio DSP amplifier",
+   "power_limit_relevant": false
+  },
+  {
+   "name": "GFM",
+   "request_id": "7A1",
+   "response_id": "7A9",
+   "obd_bus": "MS (Diag2, pins 3/11)",
+   "description": "Generic Function Module",
+   "power_limit_relevant": false
+  },
+  {
+   "name": "GSM",
+   "request_id": "732",
+   "response_id": "73A",
+   "obd_bus": "MS (Diag2, pins 3/11)",
+   "description": "Gear Shift Module",
+   "power_limit_relevant": false
+  },
+  {
+   "name": "GWM",
+   "request_id": "716",
+   "response_id": "71E",
+   "obd_bus": "HS (Diag1, pins 6/14)",
+   "description": "Gateway Module A",
+   "power_limit_relevant": true
+  },
+  {
+   "name": "HCM",
+   "request_id": "734",
+   "response_id": "73C",
+   "obd_bus": "MS (Diag2, pins 3/11)",
+   "description": "Headlamp Control Module",
+   "power_limit_relevant": false
+  },
+  {
+   "name": "HVAC",
+   "request_id": "733",
+   "response_id": "73B",
+   "obd_bus": "MS (Diag2, pins 3/11)",
+   "description": "Heating/Ventilation/AC Module",
+   "power_limit_relevant": false
+  },
+  {
+   "name": "IPC",
+   "request_id": "720",
+   "response_id": "728",
+   "obd_bus": "MS (Diag2, pins 3/11)",
+   "description": "Instrument Panel Cluster",
+   "power_limit_relevant": false
+  },
+  {
+   "name": "IPMA",
+   "request_id": "706",
+   "response_id": "70E",
+   "obd_bus": "HS (Diag1, pins 6/14)",
+   "description": "Image Processing Module A (camera/ADAS)",
+   "power_limit_relevant": false
+  },
+  {
+   "name": "OBCC",
+   "request_id": "6F5",
+   "response_id": "6FD",
+   "obd_bus": "HS (Diag1, pins 6/14)",
+   "description": "Off-Board Charger Control (DC fast charge)",
+   "power_limit_relevant": true
+  },
+  {
+   "name": "OCS",
+   "request_id": "765",
+   "response_id": "76D",
+   "obd_bus": "MS (Diag2, pins 3/11)",
+   "description": "Occupant Classification System",
+   "power_limit_relevant": false
+  },
+  {
+   "name": "PACM",
+   "request_id": "750",
+   "response_id": "758",
+   "obd_bus": "HS (Diag1, pins 6/14)",
+   "description": "Pedestrian Alert Control Module",
+   "power_limit_relevant": false
+  },
+  {
+   "name": "PCM",
+   "request_id": "7E0",
+   "response_id": "7E8",
+   "obd_bus": "HS (Diag1, pins 6/14)",
+   "description": "Powertrain Control Module",
+   "power_limit_relevant": true
+  },
+  {
+   "name": "PDM",
+   "request_id": "741",
+   "response_id": "749",
+   "obd_bus": "MS (Diag2, pins 3/11)",
+   "description": "Passenger Door Module",
+   "power_limit_relevant": false
+  },
+  {
+   "name": "PSCM",
+   "request_id": "730",
+   "response_id": "738",
+   "obd_bus": "HS (Diag1, pins 6/14)",
+   "description": "Power Steering Control Module",
+   "power_limit_relevant": false
+  },
+  {
+   "name": "RCM",
+   "request_id": "737",
+   "response_id": "73F",
+   "obd_bus": "MS (Diag2, pins 3/11)",
+   "description": "Restraint Control Module",
+   "power_limit_relevant": false
+  },
+  {
+   "name": "RFA",
+   "request_id": "731",
+   "response_id": "739",
+   "obd_bus": "MS (Diag2, pins 3/11)",
+   "description": "Remote Function Actuator",
+   "power_limit_relevant": false
+  },
+  {
+   "name": "RGTM",
+   "request_id": "775",
+   "response_id": "77D",
+   "obd_bus": "MS (Diag2, pins 3/11)",
+   "description": "Rear Gate/Trunk Module",
+   "power_limit_relevant": false
+  },
+  {
+   "name": "SCCM",
+   "request_id": "724",
+   "response_id": "72C",
+   "obd_bus": "MS (Diag2, pins 3/11)",
+   "description": "Steering Column Control Module",
+   "power_limit_relevant": false
+  },
+  {
+   "name": "SCMF",
+   "request_id": "762",
+   "response_id": "76A",
+   "obd_bus": "MS (Diag2, pins 3/11)",
+   "description": "Seat Control Module F",
+   "power_limit_relevant": false
+  },
+  {
+   "name": "SOBDM",
+   "request_id": "7E2",
+   "response_id": "7EA",
+   "obd_bus": "HS (Diag1, pins 6/14)",
+   "description": "Secondary OBD Control Module (on-board AC charger)",
+   "power_limit_relevant": true
+  },
+  {
+   "name": "SOBDMB",
+   "request_id": "7E7",
+   "response_id": "7EF",
+   "obd_bus": "HS (Diag1, pins 6/14)",
+   "description": "Secondary OBD Control Module B (front/secondary motor inverter)",
+   "power_limit_relevant": true
+  },
+  {
+   "name": "SOBDMC",
+   "request_id": "7E6",
+   "response_id": "7EE",
+   "obd_bus": "HS (Diag1, pins 6/14)",
+   "description": "Secondary OBD Control Module C (rear/primary motor inverter, thermal)",
+   "power_limit_relevant": true
+  },
+  {
+   "name": "SODCMC",
+   "request_id": "6F2",
+   "response_id": "6FA",
+   "obd_bus": "HS (Diag1, pins 6/14)",
+   "description": "Side Obstacle Detection Control Module C",
+   "power_limit_relevant": false
+  },
+  {
+   "name": "SODCMD",
+   "request_id": "6F3",
+   "response_id": "6FB",
+   "obd_bus": "HS (Diag1, pins 6/14)",
+   "description": "Side Obstacle Detection Control Module D",
+   "power_limit_relevant": false
+  },
+  {
+   "name": "SODL",
+   "request_id": "7C4",
+   "response_id": "7CC",
+   "obd_bus": "HS (Diag1, pins 6/14)",
+   "description": "Side Obstacle Detection Left",
+   "power_limit_relevant": false
+  },
+  {
+   "name": "SODR",
+   "request_id": "7C6",
+   "response_id": "7CE",
+   "obd_bus": "HS (Diag1, pins 6/14)",
+   "description": "Side Obstacle Detection Right",
+   "power_limit_relevant": false
+  },
+  {
+   "name": "TCU",
+   "request_id": "754",
+   "response_id": "75C",
+   "obd_bus": "MS (Diag2, pins 3/11)",
+   "description": "Telematics Control Unit",
+   "power_limit_relevant": false
+  },
+  {
+   "name": "VDM",
+   "request_id": "721",
+   "response_id": "729",
+   "obd_bus": "HS (Diag1, pins 6/14)",
+   "description": "Vehicle Dynamics Module",
+   "power_limit_relevant": false
+  },
+  {
+   "name": "WACM",
+   "request_id": "725",
+   "response_id": "72D",
+   "obd_bus": "MS (Diag2, pins 3/11)",
+   "description": "Wireless Accessory Charging Module",
+   "power_limit_relevant": false
+  }
+ ]
+}
