@@ -125,8 +125,8 @@ class Session:
         except (ElmError, UdsError) as exc:
             return None, [], str(exc)
 
-    def read_all_dtcs(self, modules: list[str] | None = None) -> dict[str, tuple]:
-        return {name: self.read_dtcs(name) for name in (modules or DTC_MODULES) if name in self.modules}
+    def read_all_dtcs(self, modules: list[str] | None = None, mask: int = 0xFF) -> dict[str, tuple]:
+        return {name: self.read_dtcs(name, mask) for name in (modules or DTC_MODULES) if name in self.modules}
 
     # ---- DIDs --------------------------------------------------------------------------------
     def read(self, hdr: str, did: int, label: str = "") -> Reading:

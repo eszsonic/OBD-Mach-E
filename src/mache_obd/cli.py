@@ -117,7 +117,7 @@ def main(argv=None) -> int:
                     m = s.modules[name]
                     print(f"  {name:7s} {m['request_id']} {'answers' if ok else '-'}   {m['description']}")
         elif args.cmd == "dtc":
-            res = s.read_all_dtcs(args.module or DTC_MODULES)
+            res = s.read_all_dtcs(args.module or DTC_MODULES, int(args.mask, 16))
             for name, (avail, dtcs, err) in res.items():
                 if avail is None:
                     print(f"{name:7s} unreachable: {err}")
